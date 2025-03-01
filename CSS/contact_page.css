@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.header, footer {
+    background-color: #d32f2f;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.header a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Contact Form Styles */
+/*        form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}*/
+
+h2 {
+    color: #d32f2f;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+input:focus, textarea:focus {
+    border-color: #d32f2f;
+    outline: none;
+}
+
+button {
+    background-color: #d32f2f;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #b71c1c;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 2em;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 1.6em;
+    }
+
+    input, textarea, button {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    .header h1 {
+        font-size: 1.6em;
+    }
+
+    footer h3 {
+        font-size: 1em;
+    }
+
+    h2 {
+        font-size: 1.3em;
+    }
+}
